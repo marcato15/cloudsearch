@@ -1,0 +1,6 @@
+**.sw*
+composer.phar
+/vendor/
+*.docker
+*.docker*
+docker*

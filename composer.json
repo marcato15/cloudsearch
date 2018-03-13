@@ -1,0 +1,21 @@
+{
+    "require": {
+        "slim/slim": "^3.0",
+        "guzzlehttp/guzzle": "^6.2",
+        "willdurand/hateoas": "^2.10",
+        "ql/uri-template": "dev-master",
+        "marcato15/slim-redis-cache": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "autoload": {
+        "psr-4": {
+            "Search\\": "app/",
+            "Search\\Tests\\": "tests/"
+        }
+    }
+}
